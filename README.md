@@ -48,31 +48,20 @@ Ele exibe informações detalhadas do artista usando a API do Last.fm e possui f
    ```bash
    git clone https://github.com/seu-usuario/SpotiFacil-Pro.git
    cd SpotiFacil-Pro
-Configure e execute o servidor Flask (backend):
-
-Certifique-se de ter o Python instalado.
-
-Navegue até a pasta do backend e instale as dependências.
-
-Execute:
-
-bash
-Copiar código
-flask run
-Copie a URL exibida (ex.: http://127.0.0.1:5000).
-
-Abra o arquivo index.html no navegador.
-
-Insira a URL do servidor Flask no campo "URL do servidor Flask" e clique em Conectar.
-
-Escolha o modo do player e divirta-se! 🎶
+2.Configure e execute o servidor Flask (backend):
+   • Certifique-se de ter o Python instalado.
+   • Navegue até a pasta do backend e instale as dependências.
+   • Execute:
+      flask run
+   • Copie a URL exibida (ex.: http://127.0.0.1:5000).
+3. Abra o arquivo index.html no navegador.
+4.Insira a URL do servidor Flask no campo "URL do servidor Flask" e clique em Conectar.
+5.Escolha o modo do player e divirta-se! 🎶
 
 🔗 Links Úteis
-Last.fm API
-
-Flask
-
-GitHub
+• Last.fm API
+• Flask
+• GitHub
 
 📷 Screenshots
 (Adicionar screenshots do projeto aqui para ilustrar)
