@@ -21,7 +21,7 @@ SpotiFácil Pro é um **player de música web personalizado**, desenvolvido para
 ## 📂 Estrutura do Projeto
 
 ```plaintext
-web-music/
+apkmusic/
 │
 ├── index.html       # Estrutura principal do site
 ├── estilo.css       # Estilos CSS
