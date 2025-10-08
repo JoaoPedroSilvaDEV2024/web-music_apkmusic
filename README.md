@@ -1,28 +1,58 @@
 # 🎵 SpotiFácil Pro
 
-SpotiFácil Pro é um **player de música web personalizado**, desenvolvido para consumir APIs de música e oferecer uma experiência inovadora. Possui recursos como histórico de reprodução, favoritos, visualizador de áudio, modo shuffle/repeat, controle de volume, barra de progresso e integração com a API Last.fm para informações do artista.
+SpotiFácil Pro é um **player de música web personalizado**, que consome dados de uma API própria (servidor Flask). Ele oferece uma experiência interativa e inovadora, incluindo modo de player customizado, controle de reprodução, histórico, favoritos e informações detalhadas sobre artistas usando a API do Last.fm.
 
 ---
 
 ## 📌 Funcionalidades
 
-- Player de música customizado
-- Barra de progresso e controle de volume
-- Botões de Play/Pause, Próxima, Anterior, Shuffle e Repeat
-- Histórico de reprodução
-- Lista de músicas favoritas
-- Visualizador de áudio em tempo real
-- Modo personalizado para Spotify, YouTube Music, Deezer e Apple Music
-- Exibição de informações do artista via API Last.fm
-- Responsivo para diferentes tamanhos de tela
+- 🎶 Reproduzir músicas diretamente da API.
+- 🎚️ Player customizado com:
+  - Play / Pause
+  - Próxima / Anterior faixa
+  - Shuffle e Repeat
+  - Barra de progresso
+  - Controle de volume
+- 📜 Histórico de reprodução
+- ❤️ Lista de músicas favoritas
+- 🔍 Informações do artista (imagem, biografia, tags) via API Last.fm
+- 🌈 Modos visuais customizados (Spotify, YouTube Music, Deezer, Apple Music)
+- 🎛️ Visualizador de áudio (equalizador animado)
+- 📡 Configuração dinâmica da URL do servidor
+- 🌐 Layout responsivo para desktop e mobile
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-```plaintext
 apkmusic/
 │
-├── index.html       # Estrutura principal do site
-├── estilo.css       # Estilos CSS
-├── app.js           # Lógica JavaScript do player
+├── index.html
+├── estilo.css
+├── app.js
+
+📌 Dependências
+
+Navegador moderno com suporte a HTML5, CSS3 e JavaScript ES6
+
+Servidor Flask fornecendo a API de músicas
+
+Conexão com a internet para buscar dados do Last.fm
+
+🛠 Tecnologias Usadas
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla JS)
+
+API Last.fm
+
+Flask (para backend — API de músicas)
+
+GitHub (para controle de versão e hospedagem)
+
+🎨 Layout e Responsividade
+
+O player é totalmente responsivo, com suporte a diferentes tamanhos de tela, incluindo desktop, tablet e mobile.
