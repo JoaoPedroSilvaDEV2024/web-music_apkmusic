@@ -26,4 +26,3 @@ apkmusic/
 ├── index.html       # Estrutura principal do site
 ├── estilo.css       # Estilos CSS
 ├── app.js           # Lógica JavaScript do player
-└── README.md        # Documentação do projeto
