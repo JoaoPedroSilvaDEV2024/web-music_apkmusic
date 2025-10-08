@@ -27,14 +27,12 @@
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 apkmusic/
 │
-├── index.html # Estrutura principal do site
-├── estilo.css # Estilos e temas visuais
-├── app.js # Lógica principal do player
-
-yaml
-Copiar código
+├── index.html       # Estrutura principal do site
+├── estilo.css       # Estilos e temas visuais
+├── app.js           # Lógica principal do player
 
 ---
 
