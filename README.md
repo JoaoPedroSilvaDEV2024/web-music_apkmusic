@@ -25,6 +25,7 @@ SpotiFácil Pro é um **player de música web personalizado**, que consome dados
 
 ## 📂 Estrutura do Projeto
 
+```plaintext
 apkmusic/
 │
 ├── index.html
