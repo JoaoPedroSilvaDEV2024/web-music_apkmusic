@@ -1,72 +1,85 @@
-<h1 align="center">🎵 SpotiFácil Pro</h1>
+# 🎵 SpotiFácil Pro
 
-<p align="center">
-  Um <strong>player de música web personalizado</strong> que consome dados de uma <strong>API Flask</strong>, com integração à <strong>API do Last.fm</strong> para exibir informações detalhadas sobre artistas e faixas.
-</p>
-
----
-
-## 🚀 Funcionalidades
-
-- 🎶 Reproduzir músicas diretamente da API  
-- 🎚️ Player customizado com:
-  - Play / Pause  
-  - Próxima / Anterior faixa  
-  - Shuffle e Repeat  
-  - Barra de progresso  
-  - Controle de volume  
-- 📜 Histórico de reprodução  
-- ❤️ Lista de músicas favoritas  
-- 🔍 Informações do artista (imagem, biografia, tags) via Last.fm  
-- 🌈 Modos visuais customizados (Spotify, YouTube Music, Deezer, Apple Music)  
-- 🎛️ Visualizador de áudio animado (equalizador)  
-- 📡 Configuração dinâmica da URL do servidor  
-- 📱 Layout responsivo (desktop, tablet e mobile)
+SpotiFácil Pro é um player musical moderno, com suporte a múltiplos modos (Spotify, YouTube Music, Deezer, Apple Music) e integração com um servidor Flask para streaming de músicas.  
+Ele exibe informações detalhadas do artista usando a API do Last.fm e possui funcionalidades como histórico, favoritos e visualizer.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📌 Funcionalidades
 
-```plaintext
-apkmusic/
-│
-├── index.html       # Estrutura principal do site
-├── estilo.css       # Estilos e temas visuais
-├── app.js           # Lógica principal do player
-
----
-
-## 📌 Dependências
-
-- Navegador moderno com suporte a **HTML5**, **CSS3** e **JavaScript ES6**  
-- **Servidor Flask** (fornecendo a API de músicas)  
-- Conexão com a internet para buscar dados do **Last.fm**
+- Conexão com servidor Flask para obter músicas.
+- Suporte a múltiplos modos de player: Spotify, YouTube Music, Deezer e Apple Music.
+- Exibição de capa da música e informações do artista.
+- Histórico de reprodução.
+- Lista de músicas favoritas.
+- Controle completo: play/pause, avançar, voltar, shuffle, repeat.
+- Controle de volume e barra de progresso.
+- Visualizador de áudio.
+- Responsivo para diferentes tamanhos de tela.
 
 ---
 
-## 🛠 Tecnologias Usadas
+## 🛠 Tecnologias Utilizadas
 
-| Tecnologia | Descrição |
-|-------------|------------|
-| **HTML5** | Estrutura semântica e base do projeto |
-| **CSS3** | Design, temas e responsividade |
-| **JavaScript (Vanilla JS)** | Lógica de reprodução e integração |
-| **Flask** | Backend para a API de músicas |
-| **Last.fm API** | Informações de artistas e faixas |
-| **GitHub Pages** | Hospedagem e controle de versão |
-
----
-
-## 🎨 Layout e Responsividade
-
-O design do **SpotiFácil Pro** é totalmente **responsivo**, adaptando-se automaticamente a diferentes tamanhos de tela — de grandes monitores a smartphones.  
-O layout foi planejado para oferecer uma **experiência fluida e imersiva**, independentemente do dispositivo.
+| Tecnologia       | Descrição                                      |
+|-------------------|------------------------------------------------|
+| HTML5             | Estrutura semântica e base do projeto         |
+| CSS3              | Design e responsividade                        |
+| JavaScript (Vanilla) | Lógica de reprodução e integração           |
+| Flask             | Backend para servir músicas                   |
+| Last.fm API      | Informações do artista                        |
+| GitHub Pages     | Hospedagem do front-end                       |
 
 ---
 
-## 💻 Desenvolvido por
+## 🎨 Estilo e Layout
 
-👤 **João Pedro**  
-📅 Projeto desenvolvido para fins educacionais e demonstração técnica.  
+- Design moderno com tema escuro.
+- Interface responsiva.
+- Animação no player e visualizador de áudio.
+- Exibição dinâmica das capas das músicas.
+- Integração com API externa (Last.fm) para exibir informações dos artistas.
 
 ---
+
+## 🚀 Como Usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/SpotiFacil-Pro.git
+   cd SpotiFacil-Pro
+Configure e execute o servidor Flask (backend):
+
+Certifique-se de ter o Python instalado.
+
+Navegue até a pasta do backend e instale as dependências.
+
+Execute:
+
+bash
+Copiar código
+flask run
+Copie a URL exibida (ex.: http://127.0.0.1:5000).
+
+Abra o arquivo index.html no navegador.
+
+Insira a URL do servidor Flask no campo "URL do servidor Flask" e clique em Conectar.
+
+Escolha o modo do player e divirta-se! 🎶
+
+🔗 Links Úteis
+Last.fm API
+
+Flask
+
+GitHub
+
+📷 Screenshots
+(Adicionar screenshots do projeto aqui para ilustrar)
+
+📝 Licença
+Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+
+🤝 Contribuição
+Contribuições são bem-vindas!
+Se você quiser contribuir, abra uma issue ou envie um pull request.
