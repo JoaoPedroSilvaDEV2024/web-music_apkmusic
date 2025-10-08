@@ -31,28 +31,25 @@ apkmusic/
 ├── estilo.css
 ├── app.js
 
-📌 Dependências
+## 📌 Dependências
 
-Navegador moderno com suporte a HTML5, CSS3 e JavaScript ES6
+- Navegador moderno com suporte a **HTML5**, **CSS3** e **JavaScript ES6**
+- **Servidor Flask** fornecendo a API de músicas
+- Conexão com a internet para buscar dados do **Last.fm**
 
-Servidor Flask fornecendo a API de músicas
+---
 
-Conexão com a internet para buscar dados do Last.fm
+## 🛠 Tecnologias Usadas
 
-🛠 Tecnologias Usadas
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **API Last.fm**
+- **Flask** (para backend — API de músicas)
+- **GitHub** (para controle de versão e hospedagem)
 
-HTML5
+---
 
-CSS3
+## 🎨 Layout e Responsividade
 
-JavaScript (Vanilla JS)
-
-API Last.fm
-
-Flask (para backend — API de músicas)
-
-GitHub (para controle de versão e hospedagem)
-
-🎨 Layout e Responsividade
-
-O player é totalmente responsivo, com suporte a diferentes tamanhos de tela, incluindo desktop, tablet e mobile.
+O player é totalmente **responsivo**, com suporte a diferentes tamanhos de tela, incluindo **desktop**, **tablet** e **mobile**.
